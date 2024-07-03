@@ -1,0 +1,110 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1em; }
+
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 4px;
+}
+
+/* Blockquotes and citations */
+blockquote {
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #0066cc;
+    background-color: #f0f0f0;
+    font-style: italic;
+}
+
+cite {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Code blocks */
+pre, code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+
+pre {
+    padding: 1em;
+    overflow-x: auto;
+}
+
+code {
+    padding: 0.2em 0.4em;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Responsive layout */
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 768px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+}
