@@ -1,7 +1,8 @@
 # Specific to this project
 project.conf
 /html/*
-!/html/
+!/html/.gitkeep
+
 
 
 # Byte-compiled / optimized / DLL files
